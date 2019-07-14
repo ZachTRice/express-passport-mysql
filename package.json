@@ -1,0 +1,36 @@
+{
+  "name": "express-passport-mysql",
+  "version": "1.0.0",
+  "author": "ZachTRice",
+  "description": "Express 4.x app using Passport for authentication with username and password stored in MySQL.",
+  "license": "MIT",
+  "homepage": "https://github.com/ZachTRice/express-passport-mysql",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZachTRice/express-passport-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZachTRice/express-passport-mysql/issues"
+  },
+  "keywords": [
+    "express",
+    "passport",
+    "mysql",
+    "authentication"
+  ],
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
